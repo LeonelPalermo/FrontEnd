@@ -10,25 +10,17 @@ body{
     header{
         display: grid;
         grid-template-areas: "img titulo buscador botones";
-        /*align-items: center;
-        align-content: center;*/
         grid-template-columns: 0.6fr 2fr 3fr 2fr;
         background-color: aquamarine;
-        /*height: 160px;*/
         justify-items: center;
         img{
             align-self: center;
-            margin-top: 0%;
-            width: 110px;
-            margin-top: -1%;
-            margin-left: 0%;
+            width: 6em;
         }
         h1{
             justify-self: start;
             align-self: center;
-            font-size: 60px;
-            margin-top: 10%;
-            /*margin-left: 0%;*/
+            font-size: 2rem;
             font-family: "Special Gothic Condensed One", sans-serif;
         }
         .buscador{
