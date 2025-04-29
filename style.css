@@ -47,12 +47,28 @@ body{
         }
     }
     footer{
-        /*align-self: end;*/
         background-color: rgb(149, 228, 228);
+        .grid{
+        display: grid;
+        grid-template-areas: "icono" "whatsapp";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2em 2.1em;
+        justify-items: center;
+            
+    }
+        i{
+           font-size: 2rem;
+           font-weight: bold; 
+        }
         p{
             font-family: Arial, Helvetica, sans-serif;
             font-size: 1rem;
             font-weight: bold;
+        }
+        .copyright{
+            justify-self: center;
+            color: rgb(57, 124, 184);
+            font-size: smaller;
         }
     }    
 
