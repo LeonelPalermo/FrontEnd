@@ -25,10 +25,14 @@ body{
         }
         .buscador{
             align-self: center;
+            border: #11d63c solid 4px;
+            border-radius: 4px;
+            
         }
-        input{
+        .input{
             justify-self: stretch;
-            width: 15vw;
+            width: 20vw;
+            height: 2.5vh;
 
         }
         .botones{
@@ -38,33 +42,60 @@ body{
             font-size: 1.5rem;
 
         }
-    }
-    main{
+        .div_botones a{
+            text-decoration: none;
+            color: palevioletred;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+        .div_botones a:hover{
+            color: crimson;
+            background-color: burlywood;
+            border-radius: 5px;
 
-        .video{
-            display: block;
-            margin: auto;
         }
     }
+    .videos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /*justify-items: center;*/
+        padding-bottom: 5vh;
+    }
+    .video{
+        justify-items: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+        color: aliceblue;
+        font-size: 1.4em;
+    }
+
+
     footer{
         background-color: rgb(149, 228, 228);
-        .grid{
-        display: grid;
-        grid-template-areas: "icono" "whatsapp";
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 2em 2.1em;
-        justify-items: center;
-            
-    }
-        i{
-           font-size: 2rem;
-           font-weight: bold; 
+        .redes{
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+
+
         }
-        p{
+        .redes-item{
+            justify-items: center;
+        }
+        .redes-item i{
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .redes-item p{
+            margin: 0px;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 1rem;
             font-weight: bold;
         }
+
         .copyright{
             justify-self: center;
             color: rgb(57, 124, 184);
